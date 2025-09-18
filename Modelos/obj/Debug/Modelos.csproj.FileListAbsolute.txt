@@ -1,0 +1,6 @@
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\bin\Debug\Modelos.dll
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\bin\Debug\Modelos.pdb
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\obj\Debug\Modelos.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\obj\Debug\Modelos.dll
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\obj\Debug\Modelos.pdb

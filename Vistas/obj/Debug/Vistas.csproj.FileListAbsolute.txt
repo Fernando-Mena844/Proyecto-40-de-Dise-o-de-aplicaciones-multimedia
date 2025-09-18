@@ -1,0 +1,14 @@
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\obj\Debug\Vistas.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\obj\Debug\Vistas.Login.resources
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\obj\Debug\Vistas.Properties.Resources.resources
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\obj\Debug\Vistas.csproj.GenerateResource.cache
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\obj\Debug\Vistas.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\bin\Debug\Vistas.exe.config
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\bin\Debug\Vistas.exe
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\bin\Debug\Vistas.pdb
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\obj\Debug\Vistas.exe
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\obj\Debug\Vistas.pdb
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\obj\Debug\Vistas.frmInicio.resources
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\bin\Debug\Modelos.dll
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\bin\Debug\Modelos.pdb
+C:\Users\Estudiante\Desktop\06_20220050_20250091\Vistas\obj\Debug\Vistas.csproj.Up2Date
