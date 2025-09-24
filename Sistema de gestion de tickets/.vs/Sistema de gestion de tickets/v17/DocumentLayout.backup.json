@@ -1,27 +1,66 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Sistema de gestion de tickets\\",
+  "WorkspaceRootPath": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Sistema de gestion de tickets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\vistas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\vistas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmtickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\modelos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\permisos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\estudiante\\desktop\\06_20220050_20250091\\vistas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,95 +70,250 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Login.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\Login.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Vistas\\Login.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "frmTickets.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmTickets.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\frmTickets.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T21:42:17.206Z",
+              "WhenOpened": "2025-09-24T22:47:43.156Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmClientes.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\frmClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T22:31:41.981Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCategorias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmCategorias.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmCategorias.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmCategorias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\frmCategorias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T22:20:04.836Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Tickets.cs",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Tickets.cs",
+              "RelativeDocumentMoniker": "..\\Modelos\\Tickets.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Tickets.cs",
+              "RelativeToolTip": "..\\Modelos\\Tickets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T22:15:34.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Clientes.cs",
+              "RelativeDocumentMoniker": "..\\Modelos\\Clientes.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Clientes.cs",
+              "RelativeToolTip": "..\\Modelos\\Clientes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T22:14:38.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Categorias.cs",
+              "RelativeDocumentMoniker": "..\\Modelos\\Categorias.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Categorias.cs",
+              "RelativeToolTip": "..\\Modelos\\Categorias.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T22:13:48.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Permisos.cs",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Permisos.cs",
+              "RelativeDocumentMoniker": "..\\Modelos\\Permisos.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Permisos.cs",
+              "RelativeToolTip": "..\\Modelos\\Permisos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T22:09:58.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Rol.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Rol.cs",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Rol.cs",
               "RelativeDocumentMoniker": "..\\Modelos\\Rol.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Rol.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Rol.cs",
               "RelativeToolTip": "..\\Modelos\\Rol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T21:37:17.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Usuario.cs",
-              "RelativeDocumentMoniker": "..\\Modelos\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Usuario.cs",
-              "RelativeToolTip": "..\\Modelos\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T21:33:13.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmInicio.cs",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs",
-              "RelativeToolTip": "..\\Vistas\\frmInicio.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAwwGIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T21:28:38.143Z",
+              "WhenOpened": "2025-09-24T22:08:56.124Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "frmUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmUsuarios.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmUsuarios.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Vistas\\frmUsuarios.cs [Dise\u00F1o]",
+              "Title": "frmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
+              "RelativeToolTip": "..\\Vistas\\frmInicio.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAiwIEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T21:28:14.783Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-09-24T21:52:16.779Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmInicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.cs",
-              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Vistas\\frmInicio.cs [Dise\u00F1o]",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\Program.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Program.cs",
+              "RelativeToolTip": "..\\Vistas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T21:10:19.173Z",
+              "WhenOpened": "2025-09-24T21:48:32.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Login.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\Login.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T21:45:03.553Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "frmUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmUsuarios.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\frmUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T21:45:02.039Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\frmInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T21:44:54.05Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Login.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Login.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Login.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T21:42:17.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Rol.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Rol.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Rol.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T21:37:17.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Usuario.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Usuario.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Modelos\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T21:33:13.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T21:28:38.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmUsuarios.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmUsuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T21:28:14.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\frmInicio.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T21:10:19.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Program.cs",
               "ToolTip": "C:\\Users\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Program.cs",
-              "RelativeToolTip": "..\\Vistas\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Estudiante\\Desktop\\06_20220050_20250091\\Vistas\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T21:07:23.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-18T21:07:23.19Z"
             }
           ]
         }

@@ -66,6 +66,7 @@
             this.btnCategoria.TabIndex = 3;
             this.btnCategoria.Text = "Categoría";
             this.btnCategoria.UseVisualStyleBackColor = true;
+            this.btnCategoria.Click += new System.EventHandler(this.btnCategoria_Click);
             // 
             // btnClientes
             // 
@@ -76,6 +77,7 @@
             this.btnClientes.TabIndex = 2;
             this.btnClientes.Text = "Clientes";
             this.btnClientes.UseVisualStyleBackColor = true;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnTickets
             // 
@@ -86,6 +88,7 @@
             this.btnTickets.TabIndex = 1;
             this.btnTickets.Text = "Tickets";
             this.btnTickets.UseVisualStyleBackColor = true;
+            this.btnTickets.Click += new System.EventHandler(this.btnTickets_Click);
             // 
             // btnUsuario
             // 
@@ -112,13 +115,15 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Right;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(742, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(751, 16);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(56, 58);
+            this.pictureBox1.Size = new System.Drawing.Size(56, 51);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lblUsuario
             // 
@@ -132,6 +137,7 @@
             // 
             // pnlContenedor
             // 
+            this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(144, 70);
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(810, 491);
@@ -151,6 +157,7 @@
             this.MinimumSize = new System.Drawing.Size(970, 600);
             this.Name = "frmInicio";
             this.Text = "Inicio";
+            this.Load += new System.EventHandler(this.frmInicio_Load);
             this.gbModulos.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

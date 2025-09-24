@@ -98,5 +98,38 @@ namespace Vistas
             ActivarBoton(btnUsuario);
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void frmInicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCategoria_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario((Button)sender, new frmCategorias());
+            // Activar el botón presionado
+            ActivarBoton(btnCategoria);
+        }
+
+        private void btnClientes_Click(object sender, EventArgs e)
+        {
+
+            AbrirFormulario((Button)sender, new frmClientes());
+            // Activar el botón presionado
+            ActivarBoton(btnClientes);
+        }
+
+        private void btnTickets_Click(object sender, EventArgs e)
+        {
+
+            AbrirFormulario((Button)sender, new frmTickets());
+            // Activar el botón presionado
+            ActivarBoton(btnTickets);
+        }
     }
 }

@@ -4,3 +4,9 @@ C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\obj\Debug\Modelos.cspro
 C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
 C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\obj\Debug\Modelos.dll
 C:\Users\Estudiante\Desktop\06_20220050_20250091\Modelos\obj\Debug\Modelos.pdb
+C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\Modelos.dll
+C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\Modelos.pdb
+C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.csproj.AssemblyReference.cache
+C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.dll
+C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.pdb

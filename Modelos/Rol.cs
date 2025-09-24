@@ -8,5 +8,7 @@ namespace Modelos
 {
     public class Rol
     {
+        public int idRol { get; set; }
+        public string descripcionRol { get; set; }
     }
 }

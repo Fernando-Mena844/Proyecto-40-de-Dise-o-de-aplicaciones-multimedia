@@ -43,7 +43,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.groupBox1.BackColor = System.Drawing.Color.Black;
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Location = new System.Drawing.Point(0, -20);
             this.groupBox1.Name = "groupBox1";
@@ -86,19 +86,19 @@
             // 
             this.txtDocumentoUsuario.Location = new System.Drawing.Point(304, 36);
             this.txtDocumentoUsuario.Name = "txtDocumentoUsuario";
-            this.txtDocumentoUsuario.Size = new System.Drawing.Size(170, 20);
+            this.txtDocumentoUsuario.Size = new System.Drawing.Size(190, 20);
             this.txtDocumentoUsuario.TabIndex = 3;
             // 
             // txtClave
             // 
             this.txtClave.Location = new System.Drawing.Point(304, 133);
             this.txtClave.Name = "txtClave";
-            this.txtClave.Size = new System.Drawing.Size(170, 20);
+            this.txtClave.Size = new System.Drawing.Size(190, 20);
             this.txtClave.TabIndex = 4;
             // 
             // btnIngresar
             // 
-            this.btnIngresar.BackColor = System.Drawing.Color.Lime;
+            this.btnIngresar.BackColor = System.Drawing.Color.MediumTurquoise;
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnIngresar.Location = new System.Drawing.Point(304, 193);
             this.btnIngresar.Name = "btnIngresar";
@@ -109,7 +109,7 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.BackColor = System.Drawing.Color.LightCoral;
+            this.btnCerrar.BackColor = System.Drawing.Color.RosyBrown;
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCerrar.Location = new System.Drawing.Point(438, 193);
             this.btnCerrar.Name = "btnCerrar";
@@ -123,7 +123,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(156)))), ((int)(((byte)(63)))));
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(584, 261);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnIngresar);
