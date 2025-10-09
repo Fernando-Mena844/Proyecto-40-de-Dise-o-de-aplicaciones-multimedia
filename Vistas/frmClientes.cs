@@ -42,7 +42,7 @@ namespace Vistas
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            Clientes clientes = new Clientes();
+            Modelos.Clientes clientes = new Modelos.Clientes();
 
             if (dgvData.CurrentRow != null && dgvData.Rows.Count > 0)
             {
@@ -143,7 +143,7 @@ namespace Vistas
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            Clientes cliente = new Clientes();
+            Modelos.Clientes cliente = new Modelos.Clientes();
             int idCategoria = int.Parse(dgvData.CurrentRow.Cells[0].Value.ToString());
             DialogResult respuesta = MessageBox.Show($"¿Está seguro de eliminar el cliente?", "Confirmación de eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (respuesta == DialogResult.Yes)
@@ -176,7 +176,7 @@ namespace Vistas
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            Clientes cliente = new Clientes();
+            Modelos.Clientes cliente = new Modelos.Clientes();
             string campo = cmbBusca.SelectedItem.ToString();
             if (string.IsNullOrEmpty(txtBusca.Text))
             {
@@ -185,7 +185,7 @@ namespace Vistas
             }
             else
             {
-                dgvData.DataSource = Clientes.BuscarCliente(campo, txtBusca.Text);
+                dgvData.DataSource = Modelos.Clientes.BuscarCliente(campo, txtBusca.Text);
             }
         }
 

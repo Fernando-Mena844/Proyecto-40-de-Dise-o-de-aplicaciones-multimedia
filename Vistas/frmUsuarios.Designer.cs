@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.pnlUsuarios = new System.Windows.Forms.Panel();
-            this.dgvData = new System.Windows.Forms.DataGridView();
             this.txtIndice = new System.Windows.Forms.TextBox();
             this.txtid = new System.Windows.Forms.TextBox();
             this.cmbEstado = new System.Windows.Forms.ComboBox();
@@ -48,6 +47,7 @@
             this.lblCorreo = new System.Windows.Forms.Label();
             this.lblNombre = new System.Windows.Forms.Label();
             this.lblNroDocumento = new System.Windows.Forms.Label();
+            this.dgvData = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnBorrarBusqueda = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
@@ -87,17 +87,6 @@
             this.pnlUsuarios.Name = "pnlUsuarios";
             this.pnlUsuarios.Size = new System.Drawing.Size(163, 413);
             this.pnlUsuarios.TabIndex = 0;
-            // 
-            // dgvData
-            // 
-            this.dgvData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvData.Location = new System.Drawing.Point(181, 64);
-            this.dgvData.Name = "dgvData";
-            this.dgvData.Size = new System.Drawing.Size(607, 361);
-            this.dgvData.TabIndex = 1;
             // 
             // txtIndice
             // 
@@ -148,6 +137,7 @@
             this.cmbRol.Name = "cmbRol";
             this.cmbRol.Size = new System.Drawing.Size(121, 21);
             this.cmbRol.TabIndex = 31;
+            this.cmbRol.SelectedIndexChanged += new System.EventHandler(this.cmbRol_SelectedIndexChanged);
             // 
             // lblRol
             // 
@@ -185,6 +175,7 @@
             this.btnBorrar.TabIndex = 28;
             this.btnBorrar.Text = "Borrar";
             this.btnBorrar.UseVisualStyleBackColor = false;
+            this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
             // btnGuardar
             // 
@@ -201,6 +192,7 @@
             this.btnGuardar.TabIndex = 27;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click_1);
             // 
             // btnLimpiar
             // 
@@ -217,6 +209,7 @@
             this.btnLimpiar.TabIndex = 26;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click_1);
             // 
             // txtClave
             // 
@@ -293,6 +286,18 @@
             this.lblNroDocumento.Size = new System.Drawing.Size(82, 13);
             this.lblNroDocumento.TabIndex = 18;
             this.lblNroDocumento.Text = "Nro Documento";
+            // 
+            // dgvData
+            // 
+            this.dgvData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvData.Location = new System.Drawing.Point(181, 64);
+            this.dgvData.Name = "dgvData";
+            this.dgvData.Size = new System.Drawing.Size(607, 361);
+            this.dgvData.TabIndex = 1;
+            this.dgvData.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvData_CellDoubleClick);
             // 
             // panel2
             // 
@@ -393,6 +398,7 @@
             this.Controls.Add(this.pnlUsuarios);
             this.Name = "frmUsuarios";
             this.Text = "frmUsuarios";
+            this.Load += new System.EventHandler(this.frmUsuarios_Load);
             this.pnlUsuarios.ResumeLayout(false);
             this.pnlUsuarios.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).EndInit();

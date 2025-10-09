@@ -13,7 +13,7 @@ namespace Vistas
 {
     public partial class frmInicio : Form
     {
-        private static Usuario usuarioActual;
+        private static Usuarios usuarioActual;
         private static Button MenuActivo = null;
         private static Form formularioActivo = null;
         private static ContextMenuStrip MenuActivoCMS = null;

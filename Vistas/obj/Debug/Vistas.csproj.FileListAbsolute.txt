@@ -59,3 +59,4 @@ C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Di
 C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Vistas\bin\Debug\System.Memory.xml
 C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Vistas\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Vistas\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Vistas\obj\Debug\Vistas.mdClientes.resources
