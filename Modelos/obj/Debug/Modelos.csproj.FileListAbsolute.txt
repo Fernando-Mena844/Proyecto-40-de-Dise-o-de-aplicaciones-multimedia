@@ -10,3 +10,20 @@ C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multime
 C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
 C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.dll
 C:\Users\japvs\OneDrive\Escritorio\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.pdb
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\Modelos.dll
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\Modelos.pdb
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\System.Buffers.dll
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\System.Memory.dll
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\System.Buffers.xml
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\System.Memory.xml
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.csproj.AssemblyReference.cache
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.csproj.Up2Date
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.dll
+C:\Users\ferme\Documentos\Colegio\Rical\Módulos profe Emerson\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\Modelos\obj\Debug\Modelos.pdb
