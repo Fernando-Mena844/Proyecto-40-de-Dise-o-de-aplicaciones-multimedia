@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Sistema de gestion de tickets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\entidades\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\entidades\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,12 +39,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "frmClientes.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.Designer.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmClientes.Designer.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.Designer.cs",
+              "RelativeToolTip": "..\\Vistas\\frmClientes.Designer.cs",
+              "ViewState": "AgIAAF0BAAAAAAAAAAASwHwBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T17:30:22.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmClientes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmClientes.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\frmClientes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T15:05:26.258Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Clientes.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Clientes.cs",
               "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Clientes.cs",
               "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Clientes.cs",
               "RelativeToolTip": "..\\Modelos\\Entidades\\Clientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T14:10:34.068Z",
               "EditorCaption": ""
@@ -52,39 +77,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCategorias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmCategorias.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmCategorias.cs",
-              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmCategorias.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Vistas\\frmCategorias.cs [Dise\u00F1o]",
+              "Title": "frmClientes.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmClientes.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.cs",
+              "RelativeToolTip": "..\\Vistas\\frmClientes.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAmwM8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T13:24:58.209Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Categorias.cs",
-              "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Categorias.cs",
-              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Categorias.cs",
-              "RelativeToolTip": "..\\Modelos\\Entidades\\Categorias.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAqwE8AAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T00:38:49.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmCategorias.cs",
-              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmCategorias.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmCategorias.cs",
-              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmCategorias.cs",
-              "RelativeToolTip": "..\\Vistas\\frmCategorias.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAqwFgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T00:38:00.824Z",
+              "WhenOpened": "2025-10-09T15:29:21.84Z",
               "EditorCaption": ""
             }
           ]

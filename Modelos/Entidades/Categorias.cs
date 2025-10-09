@@ -88,17 +88,5 @@ namespace Modelos
                 return false;
             }
         }
-        public static DataTable BuscarCategoria(string termino)
-        {
-            SqlConnection conectar = ConexionDB.ConexionDB.Conectar();
-            string cadenaBuscar = "SELECT descripcionCategoria as [Categoria]" +
-                "FROM Categorias " +
-                $"WHERE descripcionCategoria LIKE '%{termino}%'";
-            SqlDataAdapter data = new SqlDataAdapter(cadenaBuscar, conectar);
-            DataTable tablaBuscar = new DataTable();
-            data.Fill(tablaBuscar);
-            return tablaBuscar;
-        }
-
     }
 }

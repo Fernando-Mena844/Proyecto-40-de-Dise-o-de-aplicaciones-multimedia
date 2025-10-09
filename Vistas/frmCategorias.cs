@@ -39,8 +39,15 @@ namespace Vistas
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             Categorias cat = new Categorias();
-            int idCategoria = int.Parse(dgvData.CurrentRow.Cells[0].Value.ToString());
-            if (idCategoria == 0)
+            if (dgvData.CurrentRow != null && dgvData.Rows.Count>0) 
+            {
+                txtid.Text= dgvData.CurrentRow.Cells[0].Value.ToString();
+            }
+            else
+            {
+                txtid.Text= "0";
+            }
+            if ((txtid.Text == "0") || string.IsNullOrEmpty(txtid.Text))
             {
                 try
                 {
@@ -59,6 +66,7 @@ namespace Vistas
                     MessageBox.Show("Error al registrar datos" + ex, "Error al registrar datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 limpiarCampos();
+                cargarCategorias();
             }
             else
             {
@@ -72,7 +80,7 @@ namespace Vistas
                         txtDescripcionCategoria.Focus();
                         return;
                     }
-                    cat.ActualizarCategoria(idCategoria);
+                    cat.ActualizarCategoria(int.Parse(txtid.Text));
                     cargarCategorias();
                 }
                 catch (Exception ex)
@@ -80,6 +88,7 @@ namespace Vistas
                     MessageBox.Show("Error al actualizar datos" + ex, "Error al actualizar datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
                 limpiarCampos();
+                cargarCategorias();
             }
         }
 
@@ -99,6 +108,7 @@ namespace Vistas
                 if (cat.EliminarCategoria(idCategoria) == true)
                 {
                     cargarCategorias();
+                    limpiarCampos();
                 }
             }
             else
@@ -106,6 +116,11 @@ namespace Vistas
                 MessageBox.Show("Categoría no eliminada.", "Eliminación no realizada", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
+        }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            limpiarCampos();
         }
     }
 }
