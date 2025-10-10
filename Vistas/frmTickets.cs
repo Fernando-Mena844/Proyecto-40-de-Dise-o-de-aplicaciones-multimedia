@@ -77,7 +77,7 @@ namespace Vistas
 
             ticket.descripcionTicket = txtNroDocumento.Text;
             ticket.cliente_id = Convert.ToInt32(txtCliente.Tag);
-            ticket.usuario_id = 3; // aquí deberías pasar el usuario logueado
+            ticket.usuario_id = 1; // aquí deberías pasar el usuario logueado
             ticket.categoria_id = Convert.ToInt32(cmbCategoria.SelectedValue);
             ticket.fechaRecibido = dtpFehcaRecibidoRegistro.Value;
             ticket.fechaEntrega = dtpFechaEntregadoRegistro.Value;
@@ -150,14 +150,14 @@ namespace Vistas
         {
             if (dgvData.CurrentRow != null)
             {
-                txtid.Text = dgvData.CurrentRow.Cells["ID"].Value.ToString();
-                txtNroDocumento.Text = dgvData.CurrentRow.Cells["Descripcion"].Value.ToString();
-                txtCliente.Text = dgvData.CurrentRow.Cells["Cliente"].Value.ToString();
+                txtid.Text = dgvData.CurrentRow.Cells[0].Value.ToString();
+                txtNroDocumento.Text = dgvData.CurrentRow.Cells[1].Value.ToString();
+                txtCliente.Text = dgvData.CurrentRow.Cells[3].Value.ToString();
                 // Si incluyes idCliente en el SELECT, aquí puedes asignarlo a Tag
-                cmbCategoria.Text = dgvData.CurrentRow.Cells["Categoria"].Value.ToString();
-                dtpFehcaRecibidoRegistro.Value = Convert.ToDateTime(dgvData.CurrentRow.Cells["FechaRecibido"].Value);
-                if (dgvData.CurrentRow.Cells["FechaEntrega"].Value != DBNull.Value)
-                    dtpFechaEntregadoRegistro.Value = Convert.ToDateTime(dgvData.CurrentRow.Cells["FechaEntrega"].Value);
+                cmbCategoria.Text = dgvData.CurrentRow.Cells[2].Value.ToString();
+                dtpFehcaRecibidoRegistro.Value = Convert.ToDateTime(dgvData.CurrentRow.Cells[4].Value);
+                if (dgvData.CurrentRow.Cells[5].Value != DBNull.Value)
+                    dtpFechaEntregadoRegistro.Value = Convert.ToDateTime(dgvData.CurrentRow.Cells[5].Value);
             }
         }
 

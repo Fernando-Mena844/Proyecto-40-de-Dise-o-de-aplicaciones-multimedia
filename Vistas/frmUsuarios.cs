@@ -19,7 +19,6 @@ namespace Vistas
             cargardatacombo();
            
         }
-        //Rol rol = new Rol();
         private void frmUsuarios_Load(object sender, EventArgs e)
         {
             cargarUsuarios();
@@ -44,12 +43,6 @@ namespace Vistas
             dgvData.DataSource = null;
             dgvData.DataSource = Usuarios.CargarUsuarios();
         }
-
-       
-
-        
-
-        
 
         private void btnLimpiar_Click_1(object sender, EventArgs e)
         {
@@ -107,7 +100,7 @@ namespace Vistas
             user.documentoUsuario = txtNroDocumento.Text;
             user.nombreUsuario = txtNombre.Text;
             user.correoUsuario = txtCorreo.Text;
-            user.contraseniaUsuario = txtClave.Text;
+            user.contraseniaUsuario = Usuarios.HashPassword(txtClave.Text);
             user.idRol = Convert.ToInt32(cmbRol.SelectedValue);
 
             if (txtid.Text == "0") // Nuevo usuario
@@ -148,13 +141,6 @@ namespace Vistas
             cmbRol.DisplayMember = "descripcionRol";
             cmbRol.ValueMember = "idRol";
         }
-
-        //private void cmbRol_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-
-        // cargardatacombo();
-
-        //}
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {

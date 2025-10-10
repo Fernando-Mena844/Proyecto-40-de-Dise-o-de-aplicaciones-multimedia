@@ -1,48 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Sistema de gestion de tickets\\",
+  "WorkspaceRootPath": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Sistema de gestion de tickets\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmtickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmtickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\mdclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmtickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmtickets.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmtickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\entidades\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\entidades\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\mdclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\entidades\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\entidades\\tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frminicio.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\japvs\\onedrive\\escritorio\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmclientes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\entidades\\clientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,186 +49,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Categorias.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Categorias.cs",
               "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Categorias.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Categorias.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Categorias.cs",
               "RelativeToolTip": "..\\Modelos\\Entidades\\Categorias.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T01:44:55.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmTickets.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.Designer.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmTickets.Designer.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.Designer.cs",
-              "RelativeToolTip": "..\\Vistas\\frmTickets.Designer.cs",
-              "ViewState": "AgIAAAUBAAAAAAAAAAAowBMBAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T01:15:18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "mdClientes.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\mdClientes.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\mdClientes.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\mdClientes.cs",
-              "RelativeToolTip": "..\\Vistas\\mdClientes.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA6wEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T01:12:00.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "mdClientes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\mdClientes.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\mdClientes.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\mdClientes.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Vistas\\mdClientes.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T01:09:54.042Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tickets.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Tickets.cs",
-              "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Tickets.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Tickets.cs",
-              "RelativeToolTip": "..\\Modelos\\Entidades\\Tickets.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAkwMAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T00:36:09.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmTickets.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmTickets.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs",
-              "RelativeToolTip": "..\\Vistas\\frmTickets.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwE8AAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T00:30:16.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmTickets.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmTickets.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Vistas\\frmTickets.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T00:27:27.649Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmUsuarios.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmUsuarios.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs",
-              "RelativeToolTip": "..\\Vistas\\frmUsuarios.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAvwKEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:22:15.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T06:07:49.663Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "frmInicio.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.Designer.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.Designer.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.Designer.cs",
-              "RelativeToolTip": "..\\Vistas\\frmInicio.Designer.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAASwJ8AAAAAAAAAAAAAAA==",
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Login.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\Login.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Login.cs",
+              "RelativeToolTip": "..\\Vistas\\Login.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAQwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T00:27:15.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T03:53:31.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmInicio.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
-              "RelativeToolTip": "..\\Vistas\\frmInicio.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Login.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Login.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\Login.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Login.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T00:26:18.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T03:53:03.053Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "frmInicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\Vistas\\frmInicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T00:23:46.627Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-10T03:50:13.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tickets.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Tickets.cs",
+              "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Tickets.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Tickets.cs",
+              "RelativeToolTip": "..\\Modelos\\Entidades\\Tickets.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAzwJEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T03:40:20.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
+              "RelativeToolTip": "..\\Vistas\\frmInicio.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T03:39:09.67Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "frmUsuarios.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.Designer.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmUsuarios.Designer.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.Designer.cs",
-              "RelativeToolTip": "..\\Vistas\\frmUsuarios.Designer.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAASwHMAAAAAAAAAAAAAAA==",
+              "Title": "Clientes.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Clientes.cs",
+              "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Clientes.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Clientes.cs",
+              "RelativeToolTip": "..\\Modelos\\Entidades\\Clientes.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:42:39.363Z",
+              "WhenOpened": "2025-10-10T02:40:09.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmUsuarios.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs",
+              "RelativeToolTip": "..\\Vistas\\frmUsuarios.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAASwHYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T02:38:15.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "frmClientes.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.Designer.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmClientes.Designer.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.Designer.cs",
-              "RelativeToolTip": "..\\Vistas\\frmClientes.Designer.cs",
-              "ViewState": "AgIAABUBAAAAAAAAAAASwCkBAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "frmUsuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmUsuarios.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\frmUsuarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:33:17.872Z",
+              "WhenOpened": "2025-10-10T02:38:12.543Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "..\\Modelos\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAADgv1AAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T02:37:25.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmTickets.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmTickets.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs",
+              "RelativeToolTip": "..\\Vistas\\frmTickets.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T02:33:40.895Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmTickets.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\frmTickets.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\Vistas\\frmTickets.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T02:30:04.763Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "frmClientes.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.cs",
-              "RelativeDocumentMoniker": "..\\Vistas\\frmClientes.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmClientes.cs",
-              "RelativeToolTip": "..\\Vistas\\frmClientes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAABAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Vistas\\Program.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Program.cs",
+              "RelativeToolTip": "..\\Vistas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T23:32:49.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T02:29:01.254Z"
             }
           ]
         }

@@ -45,29 +45,56 @@ namespace Modelos
         // Insertar usuario
         public bool InsertarUsuario()
         {
+            SqlConnection conexion = ConexionDB.ConexionDB.Conectar();
+            SqlTransaction transaction = null;
+
             try
             {
-                SqlConnection conexion = ConexionDB.ConexionDB.Conectar();
-                string cadena = "INSERT INTO Usuarios (nombreUsuario, documentoUsuario, contraseniaUsuario, correoUsuario, rol_id) " +
-                                "VALUES (@nombreUsuario, @documentoUsuario, @contraseniaUsuario, @correoUsuario, @rol_id)";
+                // Iniciar transacción
+                transaction = conexion.BeginTransaction();
 
-                SqlCommand comando = new SqlCommand(cadena, conexion);
-                comando.Parameters.AddWithValue("@nombreUsuario", nombreUsuario);
-                comando.Parameters.AddWithValue("@documentoUsuario", documentoUsuario);
-                comando.Parameters.AddWithValue("@contraseniaUsuario", contraseniaUsuario);
-                comando.Parameters.AddWithValue("@correoUsuario", correoUsuario);
-                comando.Parameters.AddWithValue("@rol_id", idRol);
+                // 1. Insertar en la tabla Usuarios
+                string cadenaUsuario = "INSERT INTO Usuarios (nombreUsuario, documentoUsuario, contraseniaUsuario, correoUsuario, rol_id) " +
+                                      "VALUES (@nombreUsuario, @documentoUsuario, @contraseniaUsuario, @correoUsuario, @rol_id); " +
+                                      "SELECT SCOPE_IDENTITY();"; // Obtener el ID del usuario insertado
 
-                comando.ExecuteNonQuery();
+                SqlCommand comandoUsuario = new SqlCommand(cadenaUsuario, conexion, transaction);
+                comandoUsuario.Parameters.AddWithValue("@nombreUsuario", nombreUsuario);
+                comandoUsuario.Parameters.AddWithValue("@documentoUsuario", documentoUsuario);
+                comandoUsuario.Parameters.AddWithValue("@contraseniaUsuario", contraseniaUsuario);
+                comandoUsuario.Parameters.AddWithValue("@correoUsuario", correoUsuario);
+                comandoUsuario.Parameters.AddWithValue("@rol_id", idRol);
+
+                // Ejecutar y obtener el ID del nuevo usuario
+                int nuevoUsuarioId = Convert.ToInt32(comandoUsuario.ExecuteScalar());
+
+                // 2. Si el rol es Cliente (idRol = 3), insertar en la tabla Clientes
+                if (idRol == 3) // Asumiendo que 3 es el ID del rol Cliente
+                {
+                    string cadenaCliente = @"INSERT INTO Clientes (nombreCliente, documentoCliente, correoCliente, telefonoCliente) 
+                                   VALUES (@nombreCliente, @documentoCliente, @correoCliente, @telefonoCliente)";
+
+                    SqlCommand comandoCliente = new SqlCommand(cadenaCliente, conexion, transaction);
+                    comandoCliente.Parameters.AddWithValue("@nombreCliente", nombreUsuario);
+                    comandoCliente.Parameters.AddWithValue("@documentoCliente", documentoUsuario);
+                    comandoCliente.Parameters.AddWithValue("@correoCliente", correoUsuario);
+                    comandoCliente.Parameters.AddWithValue("@telefonoCliente", "000000000"); // Valor por defecto o pedir en el formulario
+
+                    comandoCliente.ExecuteNonQuery();
+                }
+
+                // Confirmar transacción
+                transaction.Commit();
                 return true;
             }
             catch (Exception ex)
             {
+                // Revertir transacción en caso de error
+                transaction?.Rollback();
                 MessageBox.Show("Error al insertar usuario: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
-
         // Eliminar usuario
         public bool EliminarUsuario(int id)
         {
@@ -91,9 +118,13 @@ namespace Modelos
         // Actualizar usuario
         public bool ActualizarUsuario()
         {
+            SqlConnection conexion = ConexionDB.ConexionDB.Conectar();
+            SqlTransaction transaction = null;
+
             try
             {
-                SqlConnection conexion = ConexionDB.ConexionDB.Conectar();
+                transaction = conexion.BeginTransaction();
+
                 StringBuilder queryUpdate = new StringBuilder();
                 queryUpdate.Append("UPDATE Usuarios SET ");
                 queryUpdate.Append("nombreUsuario = @nombreUsuario, ");
@@ -103,7 +134,7 @@ namespace Modelos
                 queryUpdate.Append("rol_id = @rol_id ");
                 queryUpdate.Append("WHERE idUsuario = @idUsuario");
 
-                SqlCommand comando = new SqlCommand(queryUpdate.ToString(), conexion);
+                SqlCommand comando = new SqlCommand(queryUpdate.ToString(), conexion, transaction);
                 comando.Parameters.AddWithValue("@nombreUsuario", nombreUsuario);
                 comando.Parameters.AddWithValue("@documentoUsuario", documentoUsuario);
                 comando.Parameters.AddWithValue("@contraseniaUsuario", contraseniaUsuario);
@@ -112,13 +143,33 @@ namespace Modelos
                 comando.Parameters.AddWithValue("@idUsuario", idUsuario);
 
                 comando.ExecuteNonQuery();
+
+                // Si el rol es Cliente, actualizar también en la tabla Clientes
+                if (idRol == 3)
+                {
+                    string actualizarCliente = @"UPDATE Clientes 
+                                       SET nombreCliente = @nombreCliente, 
+                                           documentoCliente = @documentoCliente, 
+                                           correoCliente = @correoCliente 
+                                       WHERE documentoCliente = @documentoOriginal";
+
+                    // Necesitarías tener el documento original para hacer el update
+                    // Esto es una simplificación - deberías manejar mejor este caso
+                }
+
+                transaction.Commit();
                 return true;
             }
             catch (Exception ex)
             {
+                transaction?.Rollback();
                 MessageBox.Show("Error al actualizar usuario: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
+        }
+        public static string HashPassword(string password)
+        {
+            return BCrypt.Net.BCrypt.HashPassword(password);
         }
 
         // Buscar usuario por nombre o documento

@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlDetalleTicket = new System.Windows.Forms.Panel();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
             this.lblCategoria = new System.Windows.Forms.Label();
             this.dtpFechaEntregadoRegistro = new System.Windows.Forms.DateTimePicker();
-            this.lblDetalleTicket = new System.Windows.Forms.Label();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.dtpFehcaRecibidoRegistro = new System.Windows.Forms.DateTimePicker();
             this.btnGuardar = new System.Windows.Forms.Button();
@@ -44,15 +45,9 @@
             this.lblFechaEntregadoRegistro = new System.Windows.Forms.Label();
             this.txtid = new System.Windows.Forms.TextBox();
             this.lblFechaRecbidoRegistro = new System.Windows.Forms.Label();
+            this.lblDetalleTicket = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dgvData = new System.Windows.Forms.DataGridView();
-            this.idCategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.descripcionCategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Categoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FechaRecibido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FechaEntrega = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnlDetalleTicket.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvData)).BeginInit();
@@ -64,7 +59,6 @@
             this.pnlDetalleTicket.Controls.Add(this.cmbCategoria);
             this.pnlDetalleTicket.Controls.Add(this.lblCategoria);
             this.pnlDetalleTicket.Controls.Add(this.dtpFechaEntregadoRegistro);
-            this.pnlDetalleTicket.Controls.Add(this.lblDetalleTicket);
             this.pnlDetalleTicket.Controls.Add(this.btnLimpiar);
             this.pnlDetalleTicket.Controls.Add(this.dtpFehcaRecibidoRegistro);
             this.pnlDetalleTicket.Controls.Add(this.btnGuardar);
@@ -76,6 +70,7 @@
             this.pnlDetalleTicket.Controls.Add(this.lblFechaEntregadoRegistro);
             this.pnlDetalleTicket.Controls.Add(this.txtid);
             this.pnlDetalleTicket.Controls.Add(this.lblFechaRecbidoRegistro);
+            this.pnlDetalleTicket.Controls.Add(this.lblDetalleTicket);
             this.pnlDetalleTicket.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlDetalleTicket.Location = new System.Drawing.Point(0, 0);
             this.pnlDetalleTicket.Margin = new System.Windows.Forms.Padding(2);
@@ -108,17 +103,6 @@
             this.dtpFechaEntregadoRegistro.Name = "dtpFechaEntregadoRegistro";
             this.dtpFechaEntregadoRegistro.Size = new System.Drawing.Size(117, 20);
             this.dtpFechaEntregadoRegistro.TabIndex = 19;
-            // 
-            // lblDetalleTicket
-            // 
-            this.lblDetalleTicket.AutoSize = true;
-            this.lblDetalleTicket.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDetalleTicket.Location = new System.Drawing.Point(4, 10);
-            this.lblDetalleTicket.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblDetalleTicket.Name = "lblDetalleTicket";
-            this.lblDetalleTicket.Size = new System.Drawing.Size(109, 40);
-            this.lblDetalleTicket.TabIndex = 11;
-            this.lblDetalleTicket.Text = "Detalles del \r\nCliente";
             // 
             // btnLimpiar
             // 
@@ -252,6 +236,16 @@
             this.lblFechaRecbidoRegistro.TabIndex = 2;
             this.lblFechaRecbidoRegistro.Text = "Fecha recibido";
             // 
+            // lblDetalleTicket
+            // 
+            this.lblDetalleTicket.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDetalleTicket.Location = new System.Drawing.Point(4, 10);
+            this.lblDetalleTicket.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblDetalleTicket.Name = "lblDetalleTicket";
+            this.lblDetalleTicket.Size = new System.Drawing.Size(109, 40);
+            this.lblDetalleTicket.TabIndex = 11;
+            this.lblDetalleTicket.Text = "Detalles del ticket";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
@@ -267,64 +261,29 @@
             // dgvData
             // 
             this.dgvData.AllowUserToOrderColumns = true;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idCategoria,
-            this.descripcionCategoria,
-            this.Categoria,
-            this.Cliente,
-            this.Usuario,
-            this.FechaRecibido,
-            this.FechaEntrega});
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvData.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvData.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvData.Location = new System.Drawing.Point(133, 0);
             this.dgvData.Name = "dgvData";
             this.dgvData.Size = new System.Drawing.Size(667, 450);
             this.dgvData.TabIndex = 11;
             this.dgvData.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvData_CellDoubleClick_1);
-            // 
-            // idCategoria
-            // 
-            this.idCategoria.HeaderText = "ID";
-            this.idCategoria.Name = "idCategoria";
-            this.idCategoria.ReadOnly = true;
-            this.idCategoria.Visible = false;
-            // 
-            // descripcionCategoria
-            // 
-            this.descripcionCategoria.HeaderText = "Descripción";
-            this.descripcionCategoria.Name = "descripcionCategoria";
-            this.descripcionCategoria.ReadOnly = true;
-            // 
-            // Categoria
-            // 
-            this.Categoria.HeaderText = "Categoria";
-            this.Categoria.Name = "Categoria";
-            this.Categoria.ReadOnly = true;
-            // 
-            // Cliente
-            // 
-            this.Cliente.HeaderText = "Cliente";
-            this.Cliente.Name = "Cliente";
-            this.Cliente.ReadOnly = true;
-            // 
-            // Usuario
-            // 
-            this.Usuario.HeaderText = "Usuario";
-            this.Usuario.Name = "Usuario";
-            this.Usuario.ReadOnly = true;
-            // 
-            // FechaRecibido
-            // 
-            this.FechaRecibido.HeaderText = "Fecha Recibido";
-            this.FechaRecibido.Name = "FechaRecibido";
-            this.FechaRecibido.ReadOnly = true;
-            // 
-            // FechaEntrega
-            // 
-            this.FechaEntrega.HeaderText = "Fecha Entrega";
-            this.FechaEntrega.Name = "FechaEntrega";
-            this.FechaEntrega.ReadOnly = true;
             // 
             // frmTickets
             // 
@@ -364,12 +323,5 @@
         private System.Windows.Forms.ComboBox cmbCategoria;
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.DataGridView dgvData;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idCategoria;
-        private System.Windows.Forms.DataGridViewTextBoxColumn descripcionCategoria;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Categoria;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cliente;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Usuario;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FechaRecibido;
-        private System.Windows.Forms.DataGridViewTextBoxColumn FechaEntrega;
     }
 }

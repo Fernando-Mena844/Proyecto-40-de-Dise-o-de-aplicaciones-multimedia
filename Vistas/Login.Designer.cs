@@ -88,6 +88,7 @@
             this.txtDocumentoUsuario.Name = "txtDocumentoUsuario";
             this.txtDocumentoUsuario.Size = new System.Drawing.Size(190, 20);
             this.txtDocumentoUsuario.TabIndex = 3;
+            this.txtDocumentoUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDocumentoUsuario_KeyPress);
             // 
             // txtClave
             // 
@@ -95,6 +96,7 @@
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(190, 20);
             this.txtClave.TabIndex = 4;
+            this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
             // 
             // btnIngresar
             // 

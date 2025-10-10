@@ -157,6 +157,7 @@
             this.MinimumSize = new System.Drawing.Size(970, 600);
             this.Name = "frmInicio";
             this.Text = "Inicio";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmInicio_FormClosed);
             this.gbModulos.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

@@ -13,46 +13,49 @@ namespace Vistas
 {
     public partial class frmInicio : Form
     {
-        private static Usuarios usuarioActual;
+        private  Usuarios usuarioActual;
         private static Button MenuActivo = null;
         private static Form formularioActivo = null;
-        private static ContextMenuStrip MenuActivoCMS = null;
 
-        public frmInicio()
+        public frmInicio(Usuarios usuario)
         {
             InitializeComponent();
+            this.usuarioActual = usuario;
+            ConfigurarInterfazSegunRol();
+        }
 
+        private void ConfigurarInterfazSegunRol()
+        {
+            // Mostrar información del usuario
+            lblUsuario.Text = $"Usuario: {usuarioActual.nombreUsuario}";
+
+            // Configurar visibilidad de módulos según el rol
+            switch (usuarioActual.idRol)
+            {
+                case 1: // Administrador - ve todo
+                    // Todos los botones visibles
+                    break;
+
+                case 2: // Técnico - ocultar gestión de usuarios
+                    btnUsuario.Visible = false;
+                    break;
+
+                case 3: // Cliente - solo ver tickets
+                    btnUsuario.Visible = false;
+                    btnCategoria.Visible = false;
+                    btnClientes.Visible = false;
+                    // Solo tickets visible
+                    break;
+
+                default:
+                    break;
+            }
         }
         private void AbrirFormulario(Button menu, Form formulario)
         {
             //if (MenuActivo != null)
             //{
             //    MenuActivo.BackColor = Color.FromArgb(243, 235, 235) ;
-            //}
-            //menu.BackColor = Color.White;
-
-            if (formularioActivo != null)
-            {
-                formularioActivo.Close();
-            }
-            //Configuracion de formulario
-            formularioActivo = formulario;
-            formulario.TopLevel = false;
-            formulario.FormBorderStyle = FormBorderStyle.None;
-            formulario.Dock = DockStyle.Fill;
-            formulario.BackColor = Color.FromArgb(243, 235, 235);
-            //Se agrega el formulario al contenedor
-            pnlContenedor.Controls.Add(formulario);
-            formulario.Show();
-        }
-
-
-        // Método para abrir un formulario desde un ContextMenuStrip
-        private void AbrirFormularioCMS(ContextMenuStrip menu, Form formulario)
-        {
-            //if (MenuActivoCMS != null)
-            //{
-            //    MenuActivoCMS.BackColor = Color.FromArgb(243, 235, 235);
             //}
             //menu.BackColor = Color.White;
 
@@ -127,6 +130,11 @@ namespace Vistas
             AbrirFormulario((Button)sender, new frmTickets());
             // Activar el botón presionado
             ActivarBoton(btnTickets);
+        }
+
+        private void frmInicio_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
