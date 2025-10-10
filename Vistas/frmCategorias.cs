@@ -39,57 +39,46 @@ namespace Vistas
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             Categorias cat = new Categorias();
-            if (dgvData.CurrentRow != null && dgvData.Rows.Count>0) 
+
+            // Validación
+            if (string.IsNullOrEmpty(txtDescripcionCategoria.Text))
             {
-                txtid.Text= dgvData.CurrentRow.Cells[0].Value.ToString();
+                MessageBox.Show("Debe ingresar una categoría", "Validación de datos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                txtDescripcionCategoria.Focus();
+                return;
             }
-            else
-            {
-                txtid.Text= "0";
-            }
-            if ((txtid.Text == "0") || string.IsNullOrEmpty(txtid.Text))
+
+            cat.descripcionCategoria = txtDescripcionCategoria.Text;
+
+            if (txtid.Text == "0") // Nuevo registro
             {
                 try
                 {
-                    cat.descripcionCategoria = txtDescripcionCategoria.Text;
-                    if (txtDescripcionCategoria.Text == "")
-                    {
-                        MessageBox.Show("Debe ingresar una categoría", "Validación de datos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                        txtDescripcionCategoria.Focus();
-                        return;
-                    }
                     cat.InsertarCategoria();
                     cargarCategorias();
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error al registrar datos" + ex, "Error al registrar datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Error al registrar datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                limpiarCampos();
-                cargarCategorias();
             }
-            else
+            else // Actualizar existente
             {
                 try
                 {
                     cat.idCategorias = int.Parse(txtid.Text);
-                    cat.descripcionCategoria = txtDescripcionCategoria.Text;
-                    if (txtDescripcionCategoria.Text == "")
-                    {
-                        MessageBox.Show("Debe ingresar una categoría", "Validación de datos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                        txtDescripcionCategoria.Focus();
-                        return;
-                    }
-                    cat.ActualizarCategoria(int.Parse(txtid.Text));
+                    cat.ActualizarCategoria(cat.idCategorias);
                     cargarCategorias();
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Error al actualizar datos" + ex, "Error al actualizar datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Error al actualizar datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                limpiarCampos();
-                cargarCategorias();
             }
+
+            limpiarCampos();
+            cargarCategorias();
+
         }
 
         private void dgvData_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
@@ -101,7 +90,13 @@ namespace Vistas
         private void btnBorrar_Click(object sender, EventArgs e)
         {
             Categorias cat = new Categorias();
-            int idCategoria = int.Parse(dgvData.CurrentRow.Cells[0].Value.ToString());
+            if (dgvData.CurrentRow == null)
+            {
+                MessageBox.Show("Debe seleccionar una categoría para eliminar.", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            int idCategoria = Convert.ToInt32(dgvData.CurrentRow.Cells[0].Value);
+
             DialogResult respuesta = MessageBox.Show($"¿Está seguro de eliminar la categoría?", "Confirmación de eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (respuesta == DialogResult.Yes)
             {

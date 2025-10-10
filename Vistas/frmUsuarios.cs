@@ -25,6 +25,7 @@ namespace Vistas
             cargarUsuarios();
             limpiarCampos();
             cargardatacombo();
+            
         }
 
         public void limpiarCampos()
@@ -35,7 +36,6 @@ namespace Vistas
             txtCorreo.Clear();
             txtClave.Clear();
             cmbRol.SelectedIndex = -1;
-            cmbEstado.SelectedIndex = -1;
             txtNroDocumento.Focus();
         }
 
@@ -59,7 +59,13 @@ namespace Vistas
         private void btnBorrar_Click(object sender, EventArgs e)
         {
             Usuarios user = new Usuarios();
-            int idUsuario = int.Parse(dgvData.CurrentRow.Cells[0].Value.ToString());
+            if (dgvData.CurrentRow == null)
+            {
+                MessageBox.Show("Debe seleccionar un usuario para eliminar.", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+            int idUsuario = Convert.ToInt32(dgvData.CurrentRow.Cells[0].Value);
+
 
             DialogResult respuesta = MessageBox.Show("¿Está seguro de eliminar el usuario?", "Confirmación de eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (respuesta == DialogResult.Yes)
@@ -89,15 +95,6 @@ namespace Vistas
         {
             Usuarios user = new Usuarios();
 
-            if (dgvData.CurrentRow != null && dgvData.Rows.Count > 0)
-            {
-                txtid.Text = dgvData.CurrentRow.Cells[0].Value.ToString();
-            }
-            else
-            {
-                txtid.Text = "0";
-            }
-
             // Validaciones básicas
             if (string.IsNullOrEmpty(txtNroDocumento.Text) || string.IsNullOrEmpty(txtNombre.Text) ||
                 string.IsNullOrEmpty(txtCorreo.Text) || string.IsNullOrEmpty(txtClave.Text) ||
@@ -111,9 +108,9 @@ namespace Vistas
             user.nombreUsuario = txtNombre.Text;
             user.correoUsuario = txtCorreo.Text;
             user.contraseniaUsuario = txtClave.Text;
-            user.idRol = Convert.ToInt32(cmbRol.SelectedValue); // si el combo está enlazado a tabla Roles
+            user.idRol = Convert.ToInt32(cmbRol.SelectedValue);
 
-            if (txtid.Text == "0")
+            if (txtid.Text == "0") // Nuevo usuario
             {
                 try
                 {
@@ -125,7 +122,7 @@ namespace Vistas
                     MessageBox.Show("Error al registrar usuario: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            else
+            else // Actualizar usuario existente
             {
                 try
                 {
@@ -141,21 +138,39 @@ namespace Vistas
 
             limpiarCampos();
             cargarUsuarios();
+
         }
 
         private void cargardatacombo()
         {
 
             cmbRol.DataSource = Rol.CargarRoles();
-            cmbRol.ValueMember = "descripcionRol";
+            cmbRol.DisplayMember = "descripcionRol";
             cmbRol.ValueMember = "idRol";
         }
 
-        private void cmbRol_SelectedIndexChanged(object sender, EventArgs e)
+        //private void cmbRol_SelectedIndexChanged(object sender, EventArgs e)
+        //{
+
+        // cargardatacombo();
+
+        //}
+
+        private void btnBuscar_Click(object sender, EventArgs e)
         {
+            string campo = cmbBusca.Text;
+            string termino = txtBusca.Text;
 
-         cargardatacombo();
+            dgvData.DataSource = Usuarios.BuscarUsuario(campo, termino);
 
+        }
+
+        private void btnBorrarBusqueda_Click(object sender, EventArgs e)
+        {
+            cargarUsuarios();
+            limpiarCampos();
+            txtBusca.Clear();
+            cmbBusca.SelectedIndex = -1;
         }
     }
 }

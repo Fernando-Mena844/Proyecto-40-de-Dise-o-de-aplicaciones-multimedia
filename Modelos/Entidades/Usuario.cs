@@ -48,15 +48,15 @@ namespace Modelos
             try
             {
                 SqlConnection conexion = ConexionDB.ConexionDB.Conectar();
-                string cadena = "INSERT INTO Usuarios (nombreUsuario, documentoUsuario, contraseniaUsuario, correoUsuario, idRol) " +
-                                "VALUES (@nombreUsuario, @documentoUsuario, @contraseniaUsuario, @correoUsuario, @idRol)";
+                string cadena = "INSERT INTO Usuarios (nombreUsuario, documentoUsuario, contraseniaUsuario, correoUsuario, rol_id) " +
+                                "VALUES (@nombreUsuario, @documentoUsuario, @contraseniaUsuario, @correoUsuario, @rol_id)";
 
                 SqlCommand comando = new SqlCommand(cadena, conexion);
                 comando.Parameters.AddWithValue("@nombreUsuario", nombreUsuario);
                 comando.Parameters.AddWithValue("@documentoUsuario", documentoUsuario);
                 comando.Parameters.AddWithValue("@contraseniaUsuario", contraseniaUsuario);
                 comando.Parameters.AddWithValue("@correoUsuario", correoUsuario);
-                comando.Parameters.AddWithValue("@idRol", idRol);
+                comando.Parameters.AddWithValue("@rol_id", idRol);
 
                 comando.ExecuteNonQuery();
                 return true;
@@ -100,7 +100,7 @@ namespace Modelos
                 queryUpdate.Append("documentoUsuario = @documentoUsuario, ");
                 queryUpdate.Append("contraseniaUsuario = @contraseniaUsuario, ");
                 queryUpdate.Append("correoUsuario = @correoUsuario, ");
-                queryUpdate.Append("idRol = @idRol ");
+                queryUpdate.Append("rol_id = @rol_id ");
                 queryUpdate.Append("WHERE idUsuario = @idUsuario");
 
                 SqlCommand comando = new SqlCommand(queryUpdate.ToString(), conexion);
@@ -108,7 +108,7 @@ namespace Modelos
                 comando.Parameters.AddWithValue("@documentoUsuario", documentoUsuario);
                 comando.Parameters.AddWithValue("@contraseniaUsuario", contraseniaUsuario);
                 comando.Parameters.AddWithValue("@correoUsuario", correoUsuario);
-                comando.Parameters.AddWithValue("@idRol", idRol);
+                comando.Parameters.AddWithValue("@rol_id", idRol);
                 comando.Parameters.AddWithValue("@idUsuario", idUsuario);
 
                 comando.ExecuteNonQuery();
@@ -133,7 +133,7 @@ namespace Modelos
                                       "U.correoUsuario AS [Correo], " +
                                       "R.descripcionRol AS [Rol] " +
                                       "FROM Usuarios U " +
-                                      "INNER JOIN Roles R ON U.idRol = R.idRol " +
+                                      "INNER JOIN Roles R ON U.rol_id = R.idRol " +
                                       "WHERE U.nombreUsuario LIKE @termino OR U.documentoUsuario LIKE @termino";
 
                 SqlDataAdapter data = new SqlDataAdapter(cadenaBuscar, conexion);
@@ -149,5 +149,59 @@ namespace Modelos
                 return null;
             }
         }
+
+        public static DataTable BuscarUsuario(string campo, string termino)
+        {
+            string columna = "";
+
+            switch (campo)
+            {
+                case "Nro. Documento":
+                    columna = "U.documentoUsuario";
+                    break;
+                case "Nombre":
+                    columna = "U.nombreUsuario";
+                    break;
+                case "Correo":
+                    columna = "U.correoUsuario";
+                    break;
+                case "Rol":
+                    columna = "R.descripcionRol";
+                    break;
+                default:
+                    return new DataTable();
+            }
+
+            try
+            {
+                using (SqlConnection conexion = ConexionDB.ConexionDB.Conectar())
+                {
+                    string query = $@"
+                SELECT 
+                    U.idUsuario AS [ID],
+                    U.nombreUsuario AS [Nombre],
+                    U.documentoUsuario AS [Documento],
+                    U.correoUsuario AS [Correo],
+                    R.descripcionRol AS [Rol]
+                FROM Usuarios U
+                INNER JOIN Roles R ON U.rol_id = R.idRol
+                WHERE {columna} LIKE @termino";
+
+                    SqlCommand comando = new SqlCommand(query, conexion);
+                    comando.Parameters.AddWithValue("@termino", "%" + termino + "%");
+
+                    SqlDataAdapter adaptador = new SqlDataAdapter(comando);
+                    DataTable tablaBuscar = new DataTable();
+                    adaptador.Fill(tablaBuscar);
+                    return tablaBuscar;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al buscar usuario: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return null;
+            }
+        }
+
     }
 }

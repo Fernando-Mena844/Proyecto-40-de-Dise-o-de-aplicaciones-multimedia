@@ -104,10 +104,7 @@ namespace Vistas
             this.Close();
         }
 
-        private void frmInicio_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void btnCategoria_Click(object sender, EventArgs e)
         {

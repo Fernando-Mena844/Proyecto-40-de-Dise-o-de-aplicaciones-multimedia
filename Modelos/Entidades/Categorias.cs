@@ -19,18 +19,21 @@ namespace Modelos
         {
             try
             {
-            SqlConnection conexion = ConexionDB.ConexionDB.Conectar();
-            string consultaQuery = "select idCategoria as [Número de registro], descripcionCategoria as Categoría from Categorias";
-            SqlDataAdapter add = new SqlDataAdapter(consultaQuery, conexion);
-            DataTable tablaCarga = new DataTable();
-            add.Fill(tablaCarga);
-            return tablaCarga;
+                using (SqlConnection conexion = ConexionDB.ConexionDB.Conectar())
+                {
+                    string query = "SELECT idCategoria, descripcionCategoria FROM Categorias";
+                    SqlDataAdapter adaptador = new SqlDataAdapter(query, conexion);
+                    DataTable tabla = new DataTable();
+                    adaptador.Fill(tabla);
+                    return tabla;
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error a1 cargar datos" + ex);
+                MessageBox.Show("Error al cargar categorías: " + ex.Message);
                 return null;
             }
+
         }
         public bool InsertarCategoria()
         {

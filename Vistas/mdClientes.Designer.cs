@@ -88,6 +88,7 @@
             this.dgvData.RowTemplate.Height = 28;
             this.dgvData.Size = new System.Drawing.Size(596, 311);
             this.dgvData.TabIndex = 21;
+            this.dgvData.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvData_CellDoubleClick);
             // 
             // panel2
             // 
@@ -102,6 +103,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(641, 73);
             this.panel2.TabIndex = 22;
+
             // 
             // btnBorrarBusqueda
             // 
@@ -192,6 +194,8 @@
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
+
+
         }
 
         #endregion
@@ -204,5 +208,7 @@
         private System.Windows.Forms.ComboBox cmbBusca;
         private System.Windows.Forms.Label lblBusca;
         private System.Windows.Forms.Label lblUsuarios;
+        
+
     }
 }

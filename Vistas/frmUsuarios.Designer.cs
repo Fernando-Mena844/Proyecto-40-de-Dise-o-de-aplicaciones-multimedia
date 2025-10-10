@@ -31,8 +31,6 @@
             this.pnlUsuarios = new System.Windows.Forms.Panel();
             this.txtIndice = new System.Windows.Forms.TextBox();
             this.txtid = new System.Windows.Forms.TextBox();
-            this.cmbEstado = new System.Windows.Forms.ComboBox();
-            this.lblEstado = new System.Windows.Forms.Label();
             this.cmbRol = new System.Windows.Forms.ComboBox();
             this.lblRol = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -67,8 +65,6 @@
             this.pnlUsuarios.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pnlUsuarios.Controls.Add(this.txtIndice);
             this.pnlUsuarios.Controls.Add(this.txtid);
-            this.pnlUsuarios.Controls.Add(this.cmbEstado);
-            this.pnlUsuarios.Controls.Add(this.lblEstado);
             this.pnlUsuarios.Controls.Add(this.cmbRol);
             this.pnlUsuarios.Controls.Add(this.lblRol);
             this.pnlUsuarios.Controls.Add(this.label2);
@@ -108,26 +104,6 @@
             this.txtid.Text = "0";
             this.txtid.Visible = false;
             // 
-            // cmbEstado
-            // 
-            this.cmbEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbEstado.FormattingEnabled = true;
-            this.cmbEstado.Location = new System.Drawing.Point(23, 267);
-            this.cmbEstado.Margin = new System.Windows.Forms.Padding(2);
-            this.cmbEstado.Name = "cmbEstado";
-            this.cmbEstado.Size = new System.Drawing.Size(121, 21);
-            this.cmbEstado.TabIndex = 33;
-            // 
-            // lblEstado
-            // 
-            this.lblEstado.AutoSize = true;
-            this.lblEstado.Location = new System.Drawing.Point(20, 252);
-            this.lblEstado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lblEstado.Name = "lblEstado";
-            this.lblEstado.Size = new System.Drawing.Size(43, 13);
-            this.lblEstado.TabIndex = 32;
-            this.lblEstado.Text = "Estado:";
-            // 
             // cmbRol
             // 
             this.cmbRol.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -137,7 +113,6 @@
             this.cmbRol.Name = "cmbRol";
             this.cmbRol.Size = new System.Drawing.Size(121, 21);
             this.cmbRol.TabIndex = 31;
-            this.cmbRol.SelectedIndexChanged += new System.EventHandler(this.cmbRol_SelectedIndexChanged);
             // 
             // lblRol
             // 
@@ -330,6 +305,7 @@
             this.btnBorrarBusqueda.TabIndex = 12;
             this.btnBorrarBusqueda.Text = "Borrar";
             this.btnBorrarBusqueda.UseVisualStyleBackColor = false;
+            this.btnBorrarBusqueda.Click += new System.EventHandler(this.btnBorrarBusqueda_Click);
             // 
             // btnBuscar
             // 
@@ -345,6 +321,7 @@
             this.btnBuscar.TabIndex = 11;
             this.btnBuscar.Text = "Buscar";
             this.btnBuscar.UseVisualStyleBackColor = false;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // txtBusca
             // 
@@ -360,6 +337,11 @@
             // 
             this.cmbBusca.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbBusca.FormattingEnabled = true;
+            this.cmbBusca.Items.AddRange(new object[] {
+            "Nombre",
+            "Documento",
+            "Correo",
+            "Rol"});
             this.cmbBusca.Location = new System.Drawing.Point(270, 16);
             this.cmbBusca.Margin = new System.Windows.Forms.Padding(2);
             this.cmbBusca.Name = "cmbBusca";
@@ -414,8 +396,6 @@
         private System.Windows.Forms.DataGridView dgvData;
         private System.Windows.Forms.TextBox txtIndice;
         private System.Windows.Forms.TextBox txtid;
-        private System.Windows.Forms.ComboBox cmbEstado;
-        private System.Windows.Forms.Label lblEstado;
         private System.Windows.Forms.ComboBox cmbRol;
         private System.Windows.Forms.Label lblRol;
         private System.Windows.Forms.Label label2;

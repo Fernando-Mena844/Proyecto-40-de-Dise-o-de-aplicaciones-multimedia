@@ -1,20 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Modelos;
 
 namespace Vistas
 {
-    public partial class frmClientes: Form
+    public partial class frmClientes : Form
     {
-
         public frmClientes()
         {
             InitializeComponent();
@@ -25,6 +19,7 @@ namespace Vistas
             cargarClientes();
             limpiarCampos();
         }
+
         public void limpiarCampos()
         {
             txtid.Text = "0";
@@ -32,6 +27,7 @@ namespace Vistas
             txtNroDocumento.Clear();
             txtCorreo.Clear();
             txtTelefono.Clear();
+            txtNombre.Focus();
         }
 
         public void cargarClientes()
@@ -40,115 +36,84 @@ namespace Vistas
             dgvData.DataSource = Modelos.Clientes.CargarClientes();
         }
 
+        private string ValidarCampos()
+        {
+            StringBuilder mensaje = new StringBuilder();
+
+            if (string.IsNullOrEmpty(txtNombre.Text))
+                mensaje.AppendLine("Debe ingresar el nombre del cliente");
+
+            if (string.IsNullOrEmpty(txtNroDocumento.Text))
+                mensaje.AppendLine("Debe ingresar un número de documento");
+
+            if (string.IsNullOrEmpty(txtCorreo.Text))
+                mensaje.AppendLine("Debe ingresar un correo electrónico");
+
+            else
+            {
+                string patronCorreo = @"^[^@\s]+@[^@\s]+\.[^@\s]+$";
+                if (!Regex.IsMatch(txtCorreo.Text, patronCorreo))
+                    mensaje.AppendLine("El correo electrónico no tiene un formato válido");
+            }
+
+            if (string.IsNullOrEmpty(txtTelefono.Text))
+                mensaje.AppendLine("Debe ingresar un número de teléfono");
+
+            return mensaje.ToString();
+        }
+
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            Modelos.Clientes clientes = new Modelos.Clientes();
+            Modelos.Clientes cliente = new Modelos.Clientes();
+            string mensaje = ValidarCampos();
 
-            if (dgvData.CurrentRow != null && dgvData.Rows.Count > 0)
+            if (mensaje != string.Empty)
             {
-                txtid.Text = dgvData.CurrentRow.Cells[0].Value.ToString();
-            }
-            else
-            {
-                txtid.Text = "0";
+                MessageBox.Show(mensaje, "Validación de datos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
             }
 
-            if ((txtid.Text == "0") || string.IsNullOrEmpty(txtid.Text))
+            try
             {
-                string mensaje = string.Empty;
-                try
-                {
-                    clientes.nombreCliente = txtNombre.Text;
-                    clientes.documentoCliente = txtNroDocumento.Text;
-                    clientes.correoCliente = txtCorreo.Text;
-                    clientes.telefonoCliente = txtTelefono.Text;
+                cliente.nombreCliente = txtNombre.Text;
+                cliente.documentoCliente = txtNroDocumento.Text;
+                cliente.correoCliente = txtCorreo.Text;
+                cliente.telefonoCliente = txtTelefono.Text;
 
-                    if (string.IsNullOrEmpty(txtNombre.Text))
-                    {
-                        mensaje += "Debe ingresar el nombre del cliente\n";
-                    }
-                    if (string.IsNullOrEmpty(txtNroDocumento.Text))
-                    {
-                        mensaje += "Debe ingresar un número de documento.\n";
-                    }
-                    if (string.IsNullOrEmpty(txtCorreo.Text))
-                    {
-                        mensaje += "Debe ingresar un correo electrónico válido\n";
-                    }
-                    if (string.IsNullOrEmpty(txtTelefono.Text))
-                    {
-                        mensaje += "Debe ingresar un número de teléfono\n";
-                    }
-
-                    if (mensaje == string.Empty)
-                    {
-                        clientes.InsertarCliente();
-                    }
-                    else
-                    {
-                        MessageBox.Show(mensaje, "Validación de datos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    }
-                }
-                catch (Exception ex)
+                if (txtid.Text == "0") // Nuevo cliente
                 {
-                    MessageBox.Show("Error al registrar datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    cliente.InsertarCliente();
                 }
+                else // Editar cliente existente
+                {
+                    cliente.idClientes = int.Parse(txtid.Text);
+                    cliente.EditarCliente(cliente.idClientes);
+                }
+
+                cargarClientes();
+                limpiarCampos();
             }
-
-            else
+            catch (Exception ex)
             {
-                int idSeleccionado = int.Parse(txtid.Text);
-                string mensaje = string.Empty;
-                try
-                {
-                    clientes.idClientes=idSeleccionado;
-                    clientes.nombreCliente=txtNombre.Text;
-                    clientes.documentoCliente=txtNroDocumento.Text;
-                    clientes.correoCliente=txtCorreo.Text;
-                    if (string.IsNullOrEmpty(txtNombre.Text))
-                    {
-                        mensaje += "Debe ingresar el nombre del cliente\n";
-                    }
-                    if (string.IsNullOrEmpty(txtNroDocumento.Text))
-                    {
-                        mensaje += "Debe ingresar un número de documento.\n";
-                    }
-                    if (string.IsNullOrEmpty(txtCorreo.Text))
-                    {
-                        mensaje += "Debe ingresar un correo electrónico válido\n";
-                    }
-                    if (string.IsNullOrEmpty(txtTelefono.Text))
-                    {
-                        mensaje += "Debe ingresar un número de teléfono\n";
-                    }
-
-                    if (mensaje == string.Empty)
-                    {
-                        clientes.EditarCliente(idSeleccionado);
-                    }
-                    else
-                    {
-                        MessageBox.Show(mensaje, "Validación de datos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                    }
-
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show("Error al actualizar datos" + ex, "Error al actualizar datos", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                MessageBox.Show("Error al guardar datos: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            cargarClientes();
-            limpiarCampos();
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
+            if (dgvData.CurrentRow == null)
+            {
+                MessageBox.Show("Debe seleccionar un cliente para eliminar.", "Atención", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+
+            int idCliente = int.Parse(dgvData.CurrentRow.Cells[0].Value.ToString());
             Modelos.Clientes cliente = new Modelos.Clientes();
-            int idCategoria = int.Parse(dgvData.CurrentRow.Cells[0].Value.ToString());
-            DialogResult respuesta = MessageBox.Show($"¿Está seguro de eliminar el cliente?", "Confirmación de eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            DialogResult respuesta = MessageBox.Show("¿Está seguro de eliminar el cliente?", "Confirmación de eliminación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (respuesta == DialogResult.Yes)
             {
-                if (cliente.EliminarCliente(idCategoria) == true)
+                if (cliente.EliminarCliente(idCliente))
                 {
                     cargarClientes();
                     limpiarCampos();
@@ -167,26 +132,26 @@ namespace Vistas
 
         private void dgvData_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtid.Text = dgvData.CurrentRow.Cells[0].Value.ToString();
-            txtNombre.Text = dgvData.CurrentRow.Cells[1].Value.ToString();
-            txtNroDocumento.Text = dgvData.CurrentRow.Cells[2].Value.ToString();
-            txtCorreo.Text = dgvData.CurrentRow.Cells[3].Value.ToString();
-            txtTelefono.Text = dgvData.CurrentRow.Cells[4].Value.ToString();
+            if (dgvData.CurrentRow != null)
+            {
+                txtid.Text = dgvData.CurrentRow.Cells[0].Value.ToString();
+                txtNombre.Text = dgvData.CurrentRow.Cells[1].Value.ToString();
+                txtNroDocumento.Text = dgvData.CurrentRow.Cells[2].Value.ToString();
+                txtCorreo.Text = dgvData.CurrentRow.Cells[3].Value.ToString();
+                txtTelefono.Text = dgvData.CurrentRow.Cells[4].Value.ToString();
+            }
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            Modelos.Clientes cliente = new Modelos.Clientes();
-            string campo = cmbBusca.SelectedItem.ToString();
-            if (string.IsNullOrEmpty(txtBusca.Text))
+            if (cmbBusca.SelectedIndex == -1 || string.IsNullOrEmpty(txtBusca.Text))
             {
-                MessageBox.Show("Ingrese un término de búsqueda.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Seleccione un campo y escriba un término de búsqueda.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
             }
-            else
-            {
-                dgvData.DataSource = Modelos.Clientes.BuscarCliente(campo, txtBusca.Text);
-            }
+
+            string campo = cmbBusca.SelectedItem.ToString();
+            dgvData.DataSource = Modelos.Clientes.BuscarCliente(campo, txtBusca.Text);
         }
 
         private void btnBorrarBusqueda_Click(object sender, EventArgs e)
@@ -199,6 +164,7 @@ namespace Vistas
 
         private void txtNroDocumento_Leave(object sender, EventArgs e)
         {
+            // Ajusta el patrón según tu país (ejemplo: DUI en El Salvador)
             string patron = @"^\d{8}-\d{1}$";
             if (!Regex.IsMatch(txtNroDocumento.Text, patron))
             {

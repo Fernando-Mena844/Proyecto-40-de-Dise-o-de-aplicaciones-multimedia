@@ -157,7 +157,6 @@
             this.MinimumSize = new System.Drawing.Size(970, 600);
             this.Name = "frmInicio";
             this.Text = "Inicio";
-            this.Load += new System.EventHandler(this.frmInicio_Load);
             this.gbModulos.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
