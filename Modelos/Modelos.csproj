@@ -61,7 +61,6 @@
     <Compile Include="ConexionDB\ConexionDB.cs" />
     <Compile Include="Entidades\Categorias.cs" />
     <Compile Include="Entidades\Clientes.cs" />
-    <Compile Include="Entidades\Permisos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entidades\Rol.cs" />
     <Compile Include="Entidades\Tickets.cs" />

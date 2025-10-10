@@ -9,13 +9,6 @@ idRol int identity(1,1) primary key,
 descripcionRol varchar (30) not null);
 go
 
-create table Permisos(
-idPermisos int identity (1,1) primary key,
-rol_id int not null,
-foreign key (rol_id) references Roles(idRol),
-descripcionPermiso varchar (30));
-go
-
 create table Usuarios(
 idUsuario int identity(1,1) primary key,
 rol_id int,

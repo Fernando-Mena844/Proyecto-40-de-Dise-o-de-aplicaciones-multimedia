@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Sistema de gestion de tickets\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{51969861-4FB6-4713-9AC8-8F47997807CB}|..\\Modelos\\Modelos.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\modelos\\entidades\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1843B5DE-ABB7-45DA-92F8-3969B34AE8A6}|..\\Vistas\\Vistas.csproj|c:\\users\\ferme\\documentos\\colegio\\rical\\m\u00F3dulos profe emerson\\proyecto-40-de-dise-o-de-aplicaciones-multimedia\\vistas\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -49,7 +52,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,7 +68,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Rol.cs",
+              "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Rol.cs",
+              "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Rol.cs",
+              "RelativeToolTip": "..\\Modelos\\Entidades\\Rol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T13:59:36.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Categorias.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Categorias.cs",
               "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Categorias.cs",
@@ -77,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Login.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\Login.cs",
@@ -89,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Login.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\Login.cs",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "frmInicio.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.cs",
@@ -111,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Tickets.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Tickets.cs",
               "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Tickets.cs",
@@ -123,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "frmInicio.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmInicio.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\frmInicio.cs",
@@ -135,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Clientes.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Clientes.cs",
               "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Clientes.cs",
@@ -147,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "frmUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\frmUsuarios.cs",
@@ -160,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "frmUsuarios.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmUsuarios.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\frmUsuarios.cs",
@@ -172,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Modelos\\Entidades\\Usuario.cs",
               "RelativeDocumentMoniker": "..\\Modelos\\Entidades\\Usuario.cs",
@@ -184,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "frmTickets.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\frmTickets.cs",
@@ -192,24 +208,22 @@
               "RelativeToolTip": "..\\Vistas\\frmTickets.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T02:33:40.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T02:33:40.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmTickets.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\frmTickets.cs",
               "ToolTip": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\frmTickets.cs [Dise\u00F1o]",
               "RelativeToolTip": "..\\Vistas\\frmTickets.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T02:30:04.763Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-10-10T02:30:04.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ferme\\Documentos\\Colegio\\Rical\\M\u00F3dulos profe Emerson\\Proyecto-40-de-Dise-o-de-aplicaciones-multimedia\\Vistas\\Program.cs",
               "RelativeDocumentMoniker": "..\\Vistas\\Program.cs",
